@@ -6,9 +6,9 @@ myDiary.addEventListener('submit', function (e) {
     e.preventDefault();
     
     const diaryTweetInput = myDiary.elements.diaryTweet;
-    if (diaryTweetInput.value !== ' ') {
+    if (diaryTweetInput.value !== '') {
       addDiaryTweets(diaryTweetInput.value);
-      diaryTweetInput.value = " ";
+      diaryTweetInput.value = "";
     }
 
 })
